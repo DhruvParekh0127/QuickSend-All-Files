@@ -27,10 +27,6 @@
     "quicksend code to ai"
   ],
   "icon": "images/icon.png",
-  "galleryBanner": {
-    "color": "#FF5F15",
-    "theme": "dark"
-  },
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
