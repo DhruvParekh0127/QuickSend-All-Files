@@ -1,8 +1,8 @@
 {
   "name": "quicksend-code2ai",
-  "displayName": "QuickSend Code2AI",
-  "description": "Easily share code files with ChatGPT, Claude, Gemini & other AI assistants",
-  "version": "1.0.1",
+  "displayName": "QuickSend Code2AI - Share Code with AI Assistants",
+  "description": "Share multiple code files with ChatGPT, Claude & Gemini directly from VS Code. Format & copy code to AI assistants with one click.",
+  "version": "1.0.2",
   "publisher": "ParekhDhruv",
   "engines": {
     "vscode": "^1.100.0"
@@ -10,15 +10,24 @@
   "categories": [
     "Other",
     "Formatters",
-    "Snippets"
+    "Snippets",
+    "Developer Tools"
   ],
   "keywords": [
-    "ai",
+    "ai assistant",
     "chatgpt",
     "claude",
     "gemini",
     "llm",
     "code sharing",
+    "code explanation",
+    "multiple files",
+    "ai coding help",
+    "send code to ai",
+    "share code with chatgpt",
+    "vs code ai",
+    "ai code review",
+    "multi-file",
     "clipboard",
     "file share",
     "code formatter",
@@ -43,6 +52,21 @@
           "group": "ParekhDhruv@1"
         }
       ]
+    },
+    "configuration": {
+      "title": "QuickSend Code2AI",
+      "properties": {
+        "quicksend-code2ai.excludeDirectories": {
+          "type": "string",
+          "default": "node_modules, .git",
+          "description": "Directories to exclude from file selection (comma-separated)"
+        },
+        "quicksend-code2ai.maxFileSizeKB": {
+          "type": "number",
+          "default": 500,
+          "description": "Maximum file size in KB to include"
+        }
+      }
     }
   },
   "scripts": {
@@ -69,5 +93,30 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/dhruv0127/QuickSend-All-Files"
-  }
+  },
+  "homepage": "https://github.com/dhruv0127/QuickSend-Code2AI#readme",
+  "bugs": {
+    "url": "https://github.com/dhruv0127/QuickSend-Code2AI/issues"
+  },
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  },
+  "badges": [
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/v/ParekhDhruv.quicksend-code2ai",
+      "href": "https://marketplace.visualstudio.com/items?itemName=ParekhDhruv.quicksend-code2ai",
+      "description": "VS Code Marketplace Version"
+    },
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/d/ParekhDhruv.quicksend-code2ai",
+      "href": "https://marketplace.visualstudio.com/items?itemName=ParekhDhruv.quicksend-code2ai",
+      "description": "VS Code Marketplace Downloads"
+    },
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/r/ParekhDhruv.quicksend-code2ai",
+      "href": "https://marketplace.visualstudio.com/items?itemName=ParekhDhruv.quicksend-code2ai",
+      "description": "VS Code Marketplace Rating"
+    }
+  ]
 }

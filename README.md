@@ -1,21 +1,33 @@
-# QuickSend Code2AI
+## QuickSend Code2AI - Share Code with AI Assistants
 
+[![VS Code Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/ParekhDhruv.quicksend-code2ai)](https://marketplace.visualstudio.com/items?itemName=ParekhDhruv.quicksend-code2ai) [![Downloads](https://img.shields.io/visual-studio-marketplace/d/ParekhDhruv.quicksend-code2ai)](https://marketplace.visualstudio.com/items?itemName=ParekhDhruv.quicksend-code2ai) [![Rating](https://img.shields.io/visual-studio-marketplace/r/ParekhDhruv.quicksend-code2ai)](https://marketplace.visualstudio.com/items?itemName=ParekhDhruv.quicksend-code2ai)
 
-**QuickSend Code2AI** is a VS Code extension that makes sharing code files with AI assistants like ChatGPT, Claude, Gemini, or any other AI tool effortless and efficient. Perfect for developers seeking AI help with their code!
+**Share multiple code files with ChatGPT, Claude & Gemini directly from VS Code. Format & copy code to AI assistants with one click.**
 
-## ✨ Features
+QuickSend Code2AI makes sharing code with ChatGPT, Claude, and other AI coding assistants effortless. Stop copying files one by one - select multiple files, format them properly, and send them directly to any AI assistant in seconds. Perfect for getting AI help with debugging, code reviews, and learning programming concepts.
 
-- 🔄 **Universal AI Assistant Support**: Works with ChatGPT, Claude, Gemini, Bard, and other AI tools
-- 📋 **One-Click Sharing**: Select and copy multiple files in just one click
-- 🔍 **Smart File Browser**: Navigate, search, and select files from your workspace
-- 📂 **Directory Organization**: Files are neatly organized by folder for easy navigation
-- 📊 **All File Types Supported**: Share code, configs, docs, and any file type
-- 🎨 **Beautifully Formatted Output**: Code is properly formatted with syntax highlighting markers
-- ⚡ **Lightweight & Fast**: Minimal impact on VS Code performance
+![QuickSend Code2AI Demo](images/quicksend-demo.gif)
 
-## 📸 Screenshots
+## ✨ Why Use QuickSend Code2AI?
 
-<img src="images/quicksharecode2ai.png" alt="quicksharecode2ai.png">
+- **Save Time**: Share multiple files in seconds instead of minutes
+- **Improve AI Responses**: Properly formatted code leads to better AI assistance
+- **Enhance Workflow**: Seamlessly integrate VS Code with your favorite AI tools
+- **Boost Productivity**: Get faster, more accurate help from AI assistants
+
+## 🔥 Key Features
+
+- 🔄 **Universal AI Support**: Works with ChatGPT, Claude, Gemini, Bard, and any text-based AI tool
+- 📋 **One-Click Multi-File Sharing**: Select and copy multiple files with a single click
+- 🔍 **Intelligent File Browser**: Quickly navigate, search, and select files from your workspace
+- 📂 **Hierarchical Organization**: Files are neatly organized by folder structure for context
+- 📊 **Complete File Type Support**: Share code, configs, documentation, and any file type
+- 🎨 **AI-Optimized Formatting**: Code is properly formatted with syntax highlighting markers
+- ⚡ **Performance Optimized**: Minimal impact on VS Code performance
+
+## 📸 See It In Action
+
+<img src="images/quicksharecode2ai.png" alt="QuickSend Code2AI Interface">
 
 ## 🚀 Installation
 
@@ -26,7 +38,7 @@ Install directly from the VS Code Marketplace:
 3. Search for "QuickSend Code2AI"
 4. Click Install
 
-Alternatively, you can install using the VS Code Quick Open (Ctrl+P / Cmd+P), paste the following command, and press enter:
+Alternatively, install using the VS Code Quick Open (Ctrl+P / Cmd+P):
 
 ```
 ext install ParekhDhruv.quicksend-code2ai
@@ -35,44 +47,45 @@ ext install ParekhDhruv.quicksend-code2ai
 ## 🔧 How to Use
 
 1. **Launch the File Selector**:
-   - Right-click in the Explorer and select "Share Files with AI Assistant"
-   - Or use the Command Palette (Ctrl+Shift+P / Cmd+Shift+P) and type "Share Files with AI Assistant"
+   - Right-click in Explorer and select "Share Files with AI Assistant"
+   - Or use Command Palette (Ctrl+Shift+P / Cmd+Shift+P) and type "Share Files with AI Assistant"
 
-2. **Select Files**:
-   - Browse through your workspace files
-   - Check the files you want to share
+2. **Select Your Files**:
+   - Browse through your workspace files in the intuitive file selector
+   - Check the files you want to share with your AI assistant
    - Use the search feature to quickly find specific files
 
-3. **Copy to Clipboard**:
+3. **Format & Copy to Clipboard**:
    - Click the "Format & Copy" button
-   - The selected files will be formatted and copied to your clipboard
+   - All selected files will be formatted with proper syntax highlighting and copied to your clipboard
 
 4. **Paste to Your AI Assistant**:
-   - Switch to your AI assistant (ChatGPT, Claude, etc.)
+   - Switch to your AI assistant (ChatGPT, Claude, Gemini, etc.)
    - Paste the content (Ctrl+V / Cmd+V)
    - Ask your question about the code
 
-## 💡 Use Cases
+## 💡 Perfect Use Cases
 
-- **Get Code Reviews**: Share multiple files for comprehensive code reviews
-- **Debug with AI**: Provide context by sharing both your code and error messages
-- **Refactoring Help**: Let AI assistants help you refactor and improve your code
-- **Learn Coding**: Get explanations of complex code structures
-- **Code Generation**: Show examples to get better AI-generated code
+- **AI Code Reviews**: Share multiple files for comprehensive code reviews
+- **Error Debugging**: Provide complete context by sharing both your code and error logs
+- **Refactoring Assistance**: Let AI assistants help optimize and improve your code
+- **Learning Programming**: Get explanations of complex code structures and patterns
+- **Smart Code Generation**: Show examples to get better AI-generated code recommendations
+- **Technical Documentation**: Generate documentation for your code with proper context
 
-## ⚙️ Extension Settings
+## ⚙️ Configuration Options
 
-This extension contributes the following settings:
+QuickSend Code2AI offers these customizable settings:
 
 * `quicksend-code2ai.excludeDirectories`: Directories to exclude from file selection (default: "node_modules, .git")
 * `quicksend-code2ai.maxFileSizeKB`: Maximum file size in KB to include (default: 500)
 
-## 📋 Output Format
+## 📋 AI-Optimized Output Format
 
-Files are copied in a markdown-compatible format that works well with AI assistants:
+Files are copied in a markdown-compatible format that works perfectly with AI assistants:
 
 ```
-# File: example.js
+## File: example.js
 ```javascript
 // Your code is formatted like this
 function example() {
@@ -80,7 +93,7 @@ function example() {
 }
 ```
 
-# File: styles.css
+## File: styles.css
 ```css
 body {
   font-family: Arial, sans-serif;
@@ -88,7 +101,7 @@ body {
 ```
 ```
 
-## 🔄 Compared to Alternatives
+## 🔄 Why Choose QuickSend Code2AI?
 
 | Feature | QuickSend Code2AI | Manual Copy-Paste | Other Extensions |
 |---------|-------------------|-------------------|------------------|
@@ -98,7 +111,31 @@ body {
 | Search functionality | ✅ | ❌ | ⚠️ Some |
 | Directory navigation | ✅ | ❌ | ⚠️ Limited |
 | Works with all AI assistants | ✅ | ✅ | ⚠️ Some |
+| Time saved per session | 5-15 minutes | 0 minutes | 2-5 minutes |
 
+## ❓ Frequently Asked Questions
+
+### Which AI assistants does this work with?
+QuickSend Code2AI works with any text-based AI assistant including ChatGPT, Claude, Gemini, Bard, Copilot, and any other AI tool that accepts pasted text.
+
+### Is there a limit to how many files I can share?
+There's no built-in limit, but AI assistants typically have context limits. For best results, we recommend sharing 5-15 files at once depending on file size.
+
+### Does this work with all programming languages?
+Yes! QuickSend Code2AI supports all file types and programming languages supported by VS Code.
+
+### How do I request features or report bugs?
+Please visit our [GitHub repository](https://github.com/dhruv0127/QuickSend-All-Files) to open issues or submit feature requests.
+
+### Is this extension free?
+Yes, QuickSend Code2AI is completely free and open-source.
+
+## 🔗 Resources
+
+- [GitHub Repository](https://github.com/dhruv0127/QuickSend-All-Files)
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ParekhDhruv.quicksend-code2ai)
+- [Report Issues](https://github.com/dhruv0127/QuickSend-All-Files/issues)
+- [Feature Requests](https://github.com/dhruv0127/QuickSend-All-Files/issues/new?labels=enhancement)
 
 ## 📝 License
 
