@@ -2,7 +2,7 @@
   "name": "quicksend-code2ai",
   "displayName": "QuickSend Code2AI",
   "description": "Easily share code files with ChatGPT, Claude, Gemini & other AI assistants",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "ParekhDhruv",
   "engines": {
     "vscode": "^1.100.0"
