@@ -25,9 +25,9 @@ QuickSend Code2AI makes sharing code with ChatGPT, Claude, and other AI coding a
 - 🎨 **AI-Optimized Formatting**: Code is properly formatted with syntax highlighting markers
 - ⚡ **Performance Optimized**: Minimal impact on VS Code performance
 
-## 📸 See It In Action
+## 📸 See It In Action Sync with theme colors
 
-<img src="images/quicksharecode2ai.png" alt="QuickSend Code2AI Interface">
+<img src="images/quicksendallthemes.png" alt="QuickSend Code2AI Interface">
 
 ## 🚀 Installation
 
@@ -84,7 +84,7 @@ QuickSend Code2AI offers these customizable settings:
 
 Files are copied in a markdown-compatible format that works perfectly with AI assistants:
 
-```
+
 ## File: example.js
 ```javascript
 // Your code is formatted like this
@@ -99,7 +99,7 @@ body {
   font-family: Arial, sans-serif;
 }
 ```
-```
+
 
 ## 🔄 Why Choose QuickSend Code2AI?
 
